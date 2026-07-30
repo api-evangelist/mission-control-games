@@ -1,8 +1,28 @@
 aid: mission-control-games
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mission-control-games.png
 name: Mission Control Games
-description: Mission Control Games is a company surfaced as a portfolio company of general-catalyst and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Mission Control Games is a mobile game studio building casual puzzle games,
+  co-founded by Kivanc Okutur (CEO) and Murat Gurel (CTO), veterans of the team
+  behind Merge Dragons. Headquartered across London and Istanbul (legal entity
+  Mission Control Games Yazilim Anonim Sirketi), the studio works in small teams
+  to create new casual puzzle sub-genres through rapid iteration and AI-assisted
+  development. It launched publicly in April 2026 alongside a $4M pre-seed round
+  led by General Catalyst, with participation from Arcadia Gaming Partners and
+  e2vc. The company operates a marketing website only and publishes no public
+  API, developer portal, SDKs, or machine-readable developer surface as of this
+  enrichment pass.
 url: https://raw.githubusercontent.com/api-evangelist/mission-control-games/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +32,32 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Games
+- Mobile Gaming
+- Casual Games
+- Puzzle Games
+- Game Studio
+- Entertainment
 apis: []
+common:
+- type: Website
+  url: https://missioncontrol.gs/
+- type: PrivacyPolicy
+  url: https://missioncontrol.gs/privacy
+- type: TermsOfService
+  url: https://missioncontrol.gs/terms
+- type: LinkedIn
+  url: https://www.linkedin.com/company/mission-control-games/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
