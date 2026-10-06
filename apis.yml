@@ -43,7 +43,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-10-06'
 tags:
 - Company
 - Games
@@ -54,6 +54,8 @@ tags:
 - Entertainment
 apis: []
 common:
+- url: https://missioncontrol.gs/blog/
+  type: Blog
 - type: Website
   url: https://missioncontrol.gs/
 - type: PrivacyPolicy
